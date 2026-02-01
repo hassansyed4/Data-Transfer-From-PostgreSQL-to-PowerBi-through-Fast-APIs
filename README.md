@@ -61,10 +61,9 @@ Power BI connects directly to the API, not the database.
 
 ## Power Query Example
 
-let
+    let
     BaseUrl = "http://127.0.0.1:8000",
     Token = "PASTE_YOUR_TOKEN_HERE",
-
     FromTs = "2026-01-01T00:00:00Z",
     ToTs   = "2026-02-01T00:00:00Z",
 
@@ -113,6 +112,7 @@ docker-compose.yml           # PostgreSQL container setup
 requirements.txt             # Python dependencies
 README.md                    # Project documentation
 .gitignore                   # Git ignore rules
+
 
 
 
