@@ -4,6 +4,8 @@ Make sure Docker Desktop is running.
 
 ## Step 1: Activate Virtual Environment
 .venv\Scripts\activate
+You should see: (.venv)
+
 
 ## Step 2: Start PostgreSQL Container
 
@@ -16,6 +18,8 @@ docker compose ps
 (Optional) Check logs:
 
 docker logs <container_name>
+eg: (Optional) Verify DB is ready: docker logs factorytwin_demo_db --tail 20
+
 
 ## Step 3: Start FastAPI Server
 uvicorn app.main:app --reload
@@ -112,6 +116,7 @@ docker-compose.yml           # PostgreSQL container setup
 requirements.txt             # Python dependencies
 README.md                    # Project documentation
 .gitignore                   # Git ignore rules
+
 
 
 
