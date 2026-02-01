@@ -5,7 +5,7 @@ Make sure Docker Desktop is running.
 ## Step 1: Activate Virtual Environment
 .venv\Scripts\activate
 
-Step 2: Start PostgreSQL Container
+## Step 2: Start PostgreSQL Container
 
 From the project root:
 
@@ -112,4 +112,5 @@ docker-compose.yml           # PostgreSQL container setup
 requirements.txt             # Python dependencies
 README.md                    # Project documentation
 .gitignore                   # Git ignore rules
+
 
