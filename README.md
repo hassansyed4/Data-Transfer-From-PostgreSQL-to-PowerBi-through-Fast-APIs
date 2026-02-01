@@ -59,7 +59,8 @@ Tokens expire — re-login when required.
 
 Power BI connects directly to the API, not the database.
 
-Power Query Example
+## Power Query Example
+
 let
     BaseUrl = "http://127.0.0.1:8000",
     Token = "PASTE_YOUR_TOKEN_HERE",
@@ -112,5 +113,6 @@ docker-compose.yml           # PostgreSQL container setup
 requirements.txt             # Python dependencies
 README.md                    # Project documentation
 .gitignore                   # Git ignore rules
+
 
 
