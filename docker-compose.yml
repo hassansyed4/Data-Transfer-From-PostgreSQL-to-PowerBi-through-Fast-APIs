@@ -1,0 +1,15 @@
+services:
+  db:
+    image: postgres:16
+    container_name: factorytwin_demo_db
+    environment:
+      POSTGRES_USER: ftuser
+      POSTGRES_PASSWORD: ftpass
+      POSTGRES_DB: factorytwin_demo
+    ports:
+      - "5432:5432"
+    volumes:
+      - ft_pgdata:/var/lib/postgresql/data
+
+volumes:
+  ft_pgdata:
